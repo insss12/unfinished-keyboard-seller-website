@@ -1,0 +1,90 @@
+:root{
+    --color1: #2c2c2c;
+    --color2: #BCC2CC;
+    --color3: white;
+}
+body{
+    margin: 0;
+    background-color: ;
+}
+#nav_bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: var(--color1);
+    border-color: var();
+}
+.class_buttons{
+    display: flex;
+    gap: 3rem;
+    color: var(--color3);
+}
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.box1{
+   width: 18rem; 
+   height: 10rem; 
+   background: var(--color2); 
+}
+.box2 {
+   width: 18rem; 
+   height: 10rem; 
+   background: var(--color2);
+}
+.box2{
+	-webkit-animation: slide-bck-right 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: slide-bck-right 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+.box3 {
+   width: 18rem; 
+   height: 10rem; 
+   background: var(--color2);
+}
+.box4 {
+   width: 18rem; 
+   height: 10rem; 
+   background: var(--color2);
+}
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;  
+    -webkit-line-clamp: 5;
+}
+.boxet{
+    width: auto;
+    height: 10rem;
+    background-color: var(--color1);
+    margin-top: 3rem;
+}
+.texts1{
+    color: aliceblue;
+    text-align: center;
+}
+.texts2{
+    color: var(--color3);
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;  
+    -webkit-line-clamp: 5;
+    text-align: center;
+}
+.button1{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.buttoen{
+    background-color: red;
+    border-radius: 8px;
+}
